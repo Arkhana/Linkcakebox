@@ -9,7 +9,7 @@ pour cakebox 2.8 utiliser la version 0.70 du plugin linkcakebox
 Indiquez l'url complète de cakebox
 exemple : http://www.mon-cakebox.fr/
 ou  http://www.mon-cakebox.fr/ */
-$url = 'http://'.$host.'/cakebox/'; //force le http
+$url = 'http://'.$host;
 
 /* Cette variable correspond à la variable directory de votre .rtorrent.rc */
 $dirpath = '/home/'.$user.'/torrents/';
@@ -17,4 +17,3 @@ $dirpath = '/home/'.$user.'/torrents/';
 /* true pour ouvrir cakebox dans un autre onglet
 false pour ne pas ouvrir cakebox dans un autre onglet */
 $onglet = true;
-?>
